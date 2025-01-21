@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8d3cfa2a-9c6b-472a-ae92-64d1f54d3ea6"
+      }
+    },
+    "owner": "jarss_pajar"
   }
 }
