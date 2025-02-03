@@ -4,11 +4,14 @@ import { StatusBar } from "expo-status-bar";
 
 const RootLayout = () => {
   return (
-  <Stack screenOptions={{ headerShown: false }}>
-    <Stack.Screen name="index" />
-    <Stack.Screen name="login" />
-    <Stack.Screen name="signup" />
-  </Stack>
+    <>
+      <StatusBar style="dark" />=
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(home)" options={{ title: "Home" }} />
+        <Stack.Screen name="(auth)/login" options={{ title: "Login" }} />
+        <Stack.Screen name="(auth)/signup" options={{ title: "Sign Up" }} />
+      </Stack>
+    </>
   );
 };
 
